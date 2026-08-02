@@ -47,7 +47,7 @@ pipeline {
                 withCredentials([
                     [
                         $class: 'AmazonWebServicesCredentialsBinding',
-                        credentialsId: 'aws-credentials'
+                        credentialsId: '05ad4dd2-3de8-4086-bdf7-b8a95faad281'
                     ]
                 ]) {
                     sh '''
@@ -78,7 +78,7 @@ pipeline {
                 withCredentials([
                     [
                         $class: 'AmazonWebServicesCredentialsBinding',
-                        credentialsId: 'aws-credentials'
+                        credentialsId: '05ad4dd2-3de8-4086-bdf7-b8a95faad281'
                     ]
                 ]) {
                     sh '''
